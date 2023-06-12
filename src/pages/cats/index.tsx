@@ -6,6 +6,7 @@ import Layout from "@/components/layouts/article"
 
 import thumbMakou from '../../../public/images/cats/makou.jpg'
 import thumbWaiwai from '../../../public/images/cats/waiwai.jpg'
+import thumbHuajuanAndFagao from '../../../public/images/cats/huajuan-and-fagao.jpg'
 
 const Cats = () => {
   return (
@@ -21,6 +22,9 @@ const Cats = () => {
           </Section>
           <Section>
             <GridItem id='waiwai' title='歪歪' thumbnail={thumbWaiwai}/>
+          </Section>
+          <Section>
+            <GridItem id='huajuan-and-fagao' title='花卷和发糕' thumbnail={thumbHuajuanAndFagao}/>
           </Section>
         </SimpleGrid>
       </Container>
