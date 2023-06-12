@@ -7,12 +7,21 @@ import { AnimatePresence } from "framer-motion"
 const App = ({ Component, pageProps, router }: AppProps) => {
   return (
     <ChakraProvider theme={theme}>
-      <Layout router={router}/>
-      <AnimatePresence mode='wait' initial>
-        <Component {...pageProps} key={router.route}/>
-      </AnimatePresence>
-    </ChakraProvider>
-  )
-}
+      <Layout router={router}>
+        <AnimatePresence
+          mode='wait'
+          initial
+          onExitComplete={() => {
+            if (typeof window !== 'undefined') {
+              window.scrollTo({ top: 0 })
+            }
+          }}
+            >
+            <Component {...pageProps} key={router.route}/>
+            </AnimatePresence>
+            </Layout>
+            </ChakraProvider>
+            )
+          }
 
 export default App
