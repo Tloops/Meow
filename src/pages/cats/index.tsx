@@ -9,6 +9,7 @@ import thumbWaiwai from '../../../public/images/cats/waiwai.jpg'
 import thumbHuajuanAndFagao from '../../../public/images/cats/huajuan-and-fagao.jpg'
 import thumbHanhan from '../../../public/images/cats/hanhan.jpg'
 import thumbDiudiuAndHaha from '../../../public/images/cats/diudiu-and-haha.jpg'
+import thumbBaobao from '../../../public/images/cats/baobao.jpg'
 
 const Cats = () => {
   return (
@@ -27,6 +28,9 @@ const Cats = () => {
           </Section>
           <Section>
             <GridItem id='hanhan' title='憨憨*' thumbnail={thumbHanhan}/>
+          </Section>
+          <Section>
+            <GridItem id='baobao' title='包包' thumbnail={thumbBaobao}/>
           </Section>
           <Section>
             <GridItem id='huajuan-and-fagao' title='花卷和发糕' thumbnail={thumbHuajuanAndFagao}/>
