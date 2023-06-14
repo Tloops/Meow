@@ -23,6 +23,9 @@ export default function Home() {
           <Paragraph>
             该网站收录了在深圳南山区西丽桃源街区1088号校园内生活过的一些猫猫的档案记录。
           </Paragraph>
+          <Paragraph>
+            注：档案中带有 “*” 的猫猫已经回喵星了。
+          </Paragraph>
         </Section>
         <Section delay={0.2}>
           <Heading as='h3' variant='section-title'>
