@@ -68,7 +68,10 @@ const HuajuanAndFagao = () => {
           <CatImage src='/images/cats/huajuan-and-fagao/0.jpg' alt='花卷和发糕'/>
           <CatImage src='/images/cats/huajuan-and-fagao/huajuan-1.jpg' alt='花卷'/>
           <CatImage src='/images/cats/huajuan-and-fagao/fagao-1.jpg' alt='发糕'/>
+          <CatImage src='/images/cats/huajuan-and-fagao/huajuan-2.jpg' alt='花卷'/>
+          <CatImage src='/images/cats/huajuan-and-fagao/1.jpg' alt='花卷和发糕'/>
           <CatVideo src='/videos/huajuan-and-fagao/1.mp4'/>
+          <CatVideo src='/videos/huajuan-and-fagao/fagao-1.mp4'/>
         </Section>
       </Container>
     </Layout>
