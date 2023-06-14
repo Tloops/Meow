@@ -7,6 +7,7 @@ import Meta from "@/components/meta"
 import Section from "@/components/section"
 import Paragraph from "@/components/paragraph"
 import SectionHeading from "@/components/section-heading"
+import CatVideo from "@/components/cat-video"
 
 const Baobao = () => {
   return (
@@ -61,6 +62,7 @@ const Baobao = () => {
           <CatImage src='/images/cats/baobao/baobao-1.jpg' alt='包包'/>
           <CatImage src='/images/cats/baobao/baobao-2.jpg' alt='包包'/>
           <CatImage src='/images/cats/baobao/baobao-3.jpg' alt='包包'/>
+          <CatVideo src='/videos/baobao/baobao-0.mp4'/>
         </Section>
       </Container>
     </Layout>
