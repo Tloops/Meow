@@ -30,6 +30,18 @@ const Waiwai = () => {
               <Meta>性别</Meta>
               <span>母</span>
             </ListItem>
+            <ListItem>
+              <Meta>特点</Meta>
+              <span>狸花猫，尾部有一处天生的折角</span>
+            </ListItem>
+            <ListItem>
+              <Meta>性格</Meta>
+              <span>高冷、不怕人，温顺</span>
+            </ListItem>
+            <ListItem>
+              <Meta>状态</Meta>
+              <span>已绝育</span>
+            </ListItem>
           </List>
         </Section>
         <Section delay={0.2}>

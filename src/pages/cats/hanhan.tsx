@@ -31,8 +31,16 @@ const Hanhan = () => {
               <span>公公</span>
             </ListItem>
             <ListItem>
+              <Meta>特点</Meta>
+              <span>橘白猫</span>
+            </ListItem>
+            <ListItem>
               <Meta>性格</Meta>
-              <span>胆子比较小，比较怕人</span>
+              <span>曾经怕人，后来允许人靠近抚摸</span>
+            </ListItem>
+            <ListItem>
+              <Meta>状态</Meta>
+              <span>死亡</span>
             </ListItem>
           </List>
         </Section>
@@ -41,7 +49,7 @@ const Hanhan = () => {
             基本信息
           </Heading>
           <Paragraph>
-            憨憨最初于20年10月在校园内目击。由于他性格比较胆小，猫舍的同学花了很长时间才抓到他去绝育。绝育之后，憨憨依旧比较怕人。但是不知道从什么时候开始，憨憨开始和歪歪成双出现在八栋车棚里。然后他们俩基本上就形影不离了，干什么事情都在一起。
+            憨憨最初于20年10月在校园内目击。曾居湖畔常常半夜大叫扰民，警惕性极高，很久才成功抓获绝育。绝育之后，憨憨依旧比较怕人。但是不知道从什么时候开始，憨憨开始和歪歪成双出现在八栋车棚里。然后他们俩基本上就形影不离了，干什么事情都在一起。
           </Paragraph>
           <CatImage src='/images/cats/hanhan/hanhan-and-waiwai-0.jpg' alt='憨憨和歪歪'/>
           <CatImage src='/images/cats/hanhan/hanhan-and-waiwai-1.jpg' alt='憨憨和歪歪'/>

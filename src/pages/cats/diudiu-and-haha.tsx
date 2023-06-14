@@ -33,7 +33,11 @@ const DiudiuAndHaha = () => {
             </ListItem>
             <ListItem>
               <Meta>性格</Meta>
-              <span>修猫咪哪有性格不好的，抓起来狠狠吸就完事了！丢丢比较乖，哈哈比较闹腾，不怎么听话。</span>
+              <span>丢丢比较乖，哈哈比较闹腾，不怎么听话。</span>
+            </ListItem>
+            <ListItem>
+              <Meta>状态</Meta>
+              <span>已送养</span>
             </ListItem>
           </List>
         </Section>

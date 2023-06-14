@@ -32,8 +32,16 @@ const Makou = () => {
               <span>母</span>
             </ListItem>
             <ListItem>
+              <Meta>特点</Meta>
+              <span>棕色的麻猫，有黑色的细小斑点，胖</span>
+            </ListItem>
+            <ListItem>
               <Meta>性格</Meta>
               <span>高冷御姐；对人爱答不理；对猫条爱不释爪</span>
+            </ListItem>
+            <ListItem>
+              <Meta>状态</Meta>
+              <span>已绝育</span>
             </ListItem>
           </List>
         </Section>

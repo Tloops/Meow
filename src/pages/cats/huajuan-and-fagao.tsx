@@ -35,6 +35,10 @@ const HuajuanAndFagao = () => {
               <Meta>性格</Meta>
               <span>修猫咪哪有性格不好的，抓起来狠狠吸就完事了！</span>
             </ListItem>
+            <ListItem>
+              <Meta>状态</Meta>
+              <span>已送养</span>
+            </ListItem>
           </List>
         </Section>
         <Section delay={0.2}>
