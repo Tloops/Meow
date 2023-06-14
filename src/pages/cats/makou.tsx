@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Heading, HStack, List, ListItem } from "@chakra-ui/react"
+import { Container, HStack, List, ListItem } from "@chakra-ui/react"
 import Layout from "@/components/layouts/article"
 import SimpleBreadcrumb from "@/components/simple-breadcrumb"
 import CatImage from "@/components/cat-image"
@@ -7,6 +7,7 @@ import Section from "@/components/section"
 import Paragraph from "@/components/paragraph"
 import Meta from "@/components/meta"
 import CatVideo from "@/components/cat-video"
+import SectionHeading from "@/components/section-heading"
 
 const Makou = () => {
   return (
@@ -19,9 +20,7 @@ const Makou = () => {
         <CatImage src='/images/cats/makou.jpg' alt='Makou Main'/>
 
         <Section delay={0.1}>
-          <Heading as='h3' variant='section-title'>
-            基本信息
-          </Heading>
+          <SectionHeading>基本信息</SectionHeading>
           <List ml={4} my={4}>
             <ListItem>
               <Meta>姓名</Meta>
@@ -46,17 +45,13 @@ const Makou = () => {
           </List>
         </Section>
         <Section delay={0.2}>
-          <Heading as='h3' variant='section-title'>
-            刷新地点
-          </Heading>
+          <SectionHeading>刷新地点</SectionHeading>
           <Paragraph>
             一教一楼；一教二楼
           </Paragraph>
         </Section>
         <Section delay={0.3}>
-          <Heading as='h3' variant='section-title'>
-            起源
-          </Heading>
+          <SectionHeading>起源</SectionHeading>
           <Paragraph>
             麻酱最初于2019年在学校中出现。发现她的时候已经怀有身孕。之后产下整整九只猫崽，并且在猫舍同学的帮助下，这九只崽子全部存活并被送养。
           </Paragraph>
@@ -78,9 +73,7 @@ const Makou = () => {
           </Paragraph>
         </Section>
         <Section delay={0.4}>
-          <Heading as='h3' variant='section-title'>
-            云吸猫
-          </Heading>
+          <SectionHeading>云吸猫</SectionHeading>
           <CatImage src='/images/cats/makou/makou-3.jpg' alt='麻酱'/>
           <CatImage src='/images/cats/makou/makou-4.jpg' alt='麻酱'/>
           <CatImage src='/images/cats/makou/makou-5.jpg' alt='麻酱'/>

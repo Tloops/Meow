@@ -1,12 +1,13 @@
 import React from 'react'
 import Layout from "@/components/layouts/article"
-import { Container, Heading, HStack, List, ListItem } from "@chakra-ui/react"
+import { Container, HStack, List, ListItem } from "@chakra-ui/react"
 import SimpleBreadcrumb from "@/components/simple-breadcrumb"
 import CatImage from "@/components/cat-image"
 import Section from "@/components/section"
 import Meta from "@/components/meta"
 import Paragraph from "@/components/paragraph"
 import CatVideo from "@/components/cat-video"
+import SectionHeading from "@/components/section-heading"
 
 const DiudiuAndHaha = () => {
   return (
@@ -19,9 +20,7 @@ const DiudiuAndHaha = () => {
         <CatImage src='/images/cats/diudiu-and-haha.jpg' alt='丢丢和哈哈'/>
 
         <Section delay={0.1}>
-          <Heading as='h3' variant='section-title'>
-            基本信息
-          </Heading>
+          <SectionHeading>基本信息</SectionHeading>
           <List ml={4} my={4}>
             <ListItem>
               <Meta>姓名</Meta>
@@ -42,9 +41,7 @@ const DiudiuAndHaha = () => {
           </List>
         </Section>
         <Section delay={0.2}>
-          <Heading as='h3' variant='section-title'>
-            起源
-          </Heading>
+          <SectionHeading>起源</SectionHeading>
           <Paragraph>
             在送走花卷和发糕大概一周后，有同学在六号门快递柜目击到了这两只小猫。猫舍的同学过去观察了一段时间后，发现并没有猫妈来领走这两只小猫，怀疑这两只小猫已经和猫妈走丢，于是便抓走带回去暂养了起来。
           </Paragraph>
@@ -57,9 +54,7 @@ const DiudiuAndHaha = () => {
           </Paragraph>
         </Section>
         <Section delay={0.2}>
-          <Heading as='h3' variant='section-title'>
-            云吸猫
-          </Heading>
+          <SectionHeading>云吸猫</SectionHeading>
           <CatImage src='/images/cats/diudiu-and-haha/diudiu-and-haha-2.jpg' alt='丢丢和哈哈'/>
           <CatImage src='/images/cats/diudiu-and-haha/diudiu-and-haha-3.jpg' alt='丢丢和哈哈'/>
           <CatVideo src='/videos/diudiu-and-haha/diudiu-and-haha-0.mp4'/>

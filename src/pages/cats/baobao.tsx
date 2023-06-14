@@ -1,11 +1,12 @@
 import React from 'react'
 import Layout from "@/components/layouts/article"
-import { Container, Heading, List, ListItem } from "@chakra-ui/react"
+import { Container, List, ListItem } from "@chakra-ui/react"
 import SimpleBreadcrumb from "@/components/simple-breadcrumb"
 import CatImage from "@/components/cat-image"
 import Meta from "@/components/meta"
 import Section from "@/components/section"
 import Paragraph from "@/components/paragraph"
+import SectionHeading from "@/components/section-heading"
 
 const Baobao = () => {
   return (
@@ -18,9 +19,7 @@ const Baobao = () => {
         <CatImage src='/images/cats/baobao.jpg' alt='包包'/>
 
         <Section delay={0.1}>
-          <Heading as='h3' variant='section-title'>
-            基本信息
-          </Heading>
+          <SectionHeading>基本信息</SectionHeading>
           <List ml={4} my={4}>
             <ListItem>
               <Meta>姓名</Meta>
@@ -45,25 +44,19 @@ const Baobao = () => {
           </List>
         </Section>
         <Section delay={0.2}>
-          <Heading as='h3' variant='section-title'>
-            刷新地点
-          </Heading>
+          <SectionHeading>刷新地点</SectionHeading>
           <Paragraph>
             二期17栋，及二期宿舍区其余部分
           </Paragraph>
         </Section>
         <Section delay={0.3}>
-          <Heading as='h3' variant='section-title'>
-            起源
-          </Heading>
+          <SectionHeading>起源</SectionHeading>
           <Paragraph>
             最早发现于深大，当天便被带去绝育。放归后失踪了一段时间，然后出现并定居于南科大。由于其可撸可抱且轻易不伸爪子而广受好评。与歪歪关系不好。
           </Paragraph>
         </Section>
         <Section delay={0.4}>
-          <Heading as='h3' variant='section-title'>
-            云吸猫
-          </Heading>
+          <SectionHeading>云吸猫</SectionHeading>
           <CatImage src='/images/cats/baobao/baobao-0.jpg' alt='包包'/>
           <CatImage src='/images/cats/baobao/baobao-1.jpg' alt='包包'/>
           <CatImage src='/images/cats/baobao/baobao-2.jpg' alt='包包'/>

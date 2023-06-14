@@ -1,11 +1,12 @@
 import React from 'react'
-import { Box, Container, Heading, HStack, List, ListItem, Text } from "@chakra-ui/react"
+import { Box, Container, HStack, List, ListItem, Text } from "@chakra-ui/react"
 import Layout from "@/components/layouts/article"
 import SimpleBreadcrumb from "@/components/simple-breadcrumb"
 import CatImage from "@/components/cat-image"
 import Section from "@/components/section"
 import Meta from "@/components/meta"
 import Paragraph from "@/components/paragraph"
+import SectionHeading from "@/components/section-heading"
 
 const Waiwai = () => {
   return (
@@ -18,9 +19,7 @@ const Waiwai = () => {
         <CatImage src='/images/cats/waiwai.jpg' alt='歪歪'/>
 
         <Section delay={0.1}>
-          <Heading as='h3' variant='section-title'>
-            基本信息
-          </Heading>
+          <SectionHeading>基本信息</SectionHeading>
           <List ml={4} my={4}>
             <ListItem>
               <Meta>姓名</Meta>
@@ -45,17 +44,13 @@ const Waiwai = () => {
           </List>
         </Section>
         <Section delay={0.2}>
-          <Heading as='h3' variant='section-title'>
-            刷新地点
-          </Heading>
+          <SectionHeading>刷新地点</SectionHeading>
           <Paragraph>
             八栋车棚（歪歪现在去那里比较少了）；湖畔五六栋
           </Paragraph>
         </Section>
         <Section delay={0.3}>
-          <Heading as='h3' variant='section-title'>
-            起源
-          </Heading>
+          <SectionHeading>起源</SectionHeading>
           <Paragraph>
             歪歪于2021年3月初出现在荔园，并且已经怀有身孕。3月底产下三只猫崽。一家四口一直在荔园生活到六七月后，歪歪被带走绝育，三只小猫也被送养出去。
           </Paragraph>
@@ -66,9 +61,7 @@ const Waiwai = () => {
           </Paragraph>
         </Section>
         <Section delay={0.4}>
-          <Heading as='h3' variant='section-title'>
-            趣事
-          </Heading>
+          <SectionHeading>趣事</SectionHeading>
           <Paragraph>
             歪歪平时对人表现的性格还可以，但是歪歪对待其它猫就比较“霸道”了。见到其他猫基本上都是直接开干，并且从没有输过。唯一和歪歪关系比较好的猫是憨憨，憨憨还在的时候他们俩每天基本上形影不离。憨憨出事之后歪歪就再也没对其他猫温柔过了。
           </Paragraph>
@@ -94,9 +87,7 @@ const Waiwai = () => {
           </HStack>
         </Section>
         <Section delay={0.5}>
-          <Heading as='h3' variant='section-title'>
-            云吸猫
-          </Heading>
+          <SectionHeading>云吸猫</SectionHeading>
           <CatImage src='/images/cats/waiwai/waiwai-4.jpg' alt='歪歪'/>
           <CatImage src='/images/cats/waiwai/waiwai-5.jpg' alt='歪歪'/>
           <CatImage src='/images/cats/waiwai/waiwai-6.jpg' alt='歪歪'/>
