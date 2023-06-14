@@ -78,6 +78,7 @@ const Makou = () => {
           <CatImage src='/images/cats/makou/makou-5.jpg' alt='麻酱'/>
           <CatImage src='/images/cats/makou/makou-6.jpeg' alt='麻酱'/>
           <CatImage src='/images/cats/makou/makou-7.jpg' alt='麻酱'/>
+          <CatImage src='/images/cats/makou/makou-8.jpg' alt='麻酱'/>
         </Section>
       </Container>
     </Layout>
