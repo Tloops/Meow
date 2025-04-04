@@ -2,7 +2,6 @@ import Footer from '@/components/footer'
 import { Box, Container } from '@chakra-ui/react'
 import Head from 'next/head'
 import React from 'react'
-import CatImage from '../cat-image'
 import Navbar from '../navbar'
 
 function Main({ children, router }: any) {
@@ -16,7 +15,6 @@ function Main({ children, router }: any) {
       <Navbar path={router.asPath} />
 
       <Container maxW="container.md" pt={20}>
-        <CatImage src="/images/oiiaio.gif" alt="Oiiaio" />
         {children}
       </Container>
 

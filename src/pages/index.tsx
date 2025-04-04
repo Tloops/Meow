@@ -1,3 +1,4 @@
+import CatImage from '@/components/cat-image'
 import Layout from '@/components/layouts/article'
 import Paragraph from '@/components/paragraph'
 import Section from '@/components/section'
@@ -6,6 +7,7 @@ import { Box, Container, Heading, useColorModeValue } from '@chakra-ui/react'
 export default function Home() {
   return (
     <Layout>
+      <CatImage src="/images/oiiaio.gif" alt="Oiiaio" />
       <Container>
         <Box
           borderRadius="lg"
