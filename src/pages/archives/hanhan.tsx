@@ -39,7 +39,7 @@ function Hanhan() {
             </ListItem>
             <ListItem>
               <Meta>状态</Meta>
-              <span>死亡</span>
+              <span>去喵星了</span>
             </ListItem>
           </List>
         </Section>

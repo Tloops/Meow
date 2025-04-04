@@ -40,7 +40,7 @@ function Baobao() {
             </ListItem>
             <ListItem>
               <Meta>状态</Meta>
-              <span>已绝育</span>
+              <span>已被领养</span>
             </ListItem>
           </List>
         </Section>

@@ -47,7 +47,7 @@ function Makou() {
         <Section delay={0.2}>
           <SectionHeading>刷新地点</SectionHeading>
           <Paragraph>
-            一教一楼；一教二楼
+            一教一楼；一教二楼（之前）；二科（现在）
           </Paragraph>
         </Section>
         <Section delay={0.3}>
