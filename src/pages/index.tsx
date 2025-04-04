@@ -1,18 +1,17 @@
-import { Box, Container, Heading, useColorModeValue } from "@chakra-ui/react"
-import Layout from "@/components/layouts/article"
-import Section from "@/components/section"
-import Paragraph from "@/components/paragraph"
-
+import Layout from '@/components/layouts/article'
+import Paragraph from '@/components/paragraph'
+import Section from '@/components/section'
+import { Box, Container, Heading, useColorModeValue } from '@chakra-ui/react'
 
 export default function Home() {
   return (
     <Layout>
       <Container>
         <Box
-          borderRadius='lg'
+          borderRadius="lg"
           p={3}
           mb={6}
-          textAlign='center'
+          textAlign="center"
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           css={{ backdropFilter: 'blur(10px)' }}
         >
@@ -28,11 +27,15 @@ export default function Home() {
           </Paragraph>
         </Section>
         <Section delay={0.2}>
-          <Heading as='h3' variant='section-title'>
+          <Heading as="h3" variant="section-title">
             声明
           </Heading>
           <Paragraph>
-            由于网站中使用了许多来源比较难以追溯的图片，所以在搭建时并没有直接向图片的原作者申请使用授权（摆了）。如有侵权，请联系 <b>QQ：2996362441</b> 进行删除。
+            由于网站中使用了许多来源比较难以追溯的图片，所以在搭建时并没有直接向图片的原作者申请使用授权（摆了）。如有侵权，请联系
+            {' '}
+            <b>QQ：2996362441</b>
+            {' '}
+            进行删除。
           </Paragraph>
         </Section>
       </Container>

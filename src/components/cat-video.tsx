@@ -1,26 +1,26 @@
+import { Box, Text } from '@chakra-ui/react'
 import React from 'react'
-import { Box, Text } from "@chakra-ui/react"
 
 interface Props {
-  src: string,
+  src: string
   caption?: string
 }
 
-const CatVideo = ({ src, caption }: Props) => {
+function CatVideo({ src, caption }: Props) {
   return (
     <Box
-      w='full'
-      borderRadius='lg'
-      overflow='hidden'
+      w="full"
+      borderRadius="lg"
+      overflow="hidden"
       // @ts-ignore
-      align='center'
+      align="center"
       py={4}
       mb={4}
     >
       <video controls>
-        <source src={src} type='video/mp4'/>
+        <source src={src} type="video/mp4" />
       </video>
-      <Text textAlign='center' as='sub'>
+      <Text textAlign="center" as="sub">
         {caption}
       </Text>
     </Box>

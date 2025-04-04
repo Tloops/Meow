@@ -1,5 +1,6 @@
-import React, { ReactNode } from 'react'
-import NextLink from 'next/link'
+import type { ReactNode } from 'react'
+import Logo from '@/components/logo'
+import { HamburgerIcon } from '@chakra-ui/icons'
 import {
   Box,
   Container,
@@ -8,21 +9,23 @@ import {
   IconButton,
   Link,
   Menu,
-  MenuButton, MenuItem, MenuList,
+  MenuButton,
+  MenuItem,
+  MenuList,
   Stack,
-  useColorModeValue
-} from "@chakra-ui/react"
-import Logo from "@/components/logo"
-import { HamburgerIcon } from "@chakra-ui/icons"
-import ToggleThemeButton from "./toggle-theme-button"
+  useColorModeValue,
+} from '@chakra-ui/react'
+import NextLink from 'next/link'
+import React from 'react'
+import ToggleThemeButton from './toggle-theme-button'
 
 interface LinkItemProps {
-  href: string,
-  path: string,
+  href: string
+  path: string
   children: ReactNode
 }
 
-const LinkItem = ({ href, path, children }: LinkItemProps) => {
+function LinkItem({ href, path, children }: LinkItemProps) {
   const isActive = path === href
   const inactiveColor = useColorModeValue('gray.800', 'whiteAlpha.900')
   return (
@@ -42,29 +45,28 @@ interface NavbarProps {
   path: string
 }
 
-const Navbar = ({ path }: NavbarProps) => {
-
+function Navbar({ path }: NavbarProps) {
   return (
     <Box
-      position='fixed'
-      as='nav'
-      w='100%'
+      position="fixed"
+      as="nav"
+      w="100%"
       bg={useColorModeValue('#ffffff40', '#20202380')}
       style={{ backdropFilter: 'blur(10px)' }}
       zIndex={1}
     >
       <Container
-        display='flex'
+        display="flex"
         p={2}
-        maxW='container.md'
+        maxW="container.md"
         // @ts-ignore
-        wrap='wrap'
-        align='center'
-        justify='space-between'
+        wrap="wrap"
+        align="center"
+        justify="space-between"
       >
-        <Flex align='center' mr={5}>
-          <Heading as='h1' size='lg' letterSpacing='tighter'>
-            <Logo/>
+        <Flex align="center" mr={5}>
+          <Heading as="h1" size="lg" letterSpacing="tighter">
+            <Logo />
           </Heading>
         </Flex>
 
@@ -72,36 +74,36 @@ const Navbar = ({ path }: NavbarProps) => {
           direction={{ base: 'column', md: 'row' }}
           display={{ base: 'none', md: 'flex' }}
           width={{ base: 'full', md: 'auto' }}
-          alignItems='center'
+          alignItems="center"
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href='/cats' path={path}>查猫</LinkItem>
-          <LinkItem href='/where' path={path}>找猫</LinkItem>
+          <LinkItem href="/archives" path={path}>档案</LinkItem>
+          <LinkItem href="/where" path={path}>找猫</LinkItem>
         </Stack>
 
         <Box
           flex={1}
           // @ts-ignore
-          align='right'
+          align="right"
         >
-          <ToggleThemeButton/>
+          <ToggleThemeButton />
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu>
               <MenuButton
                 as={IconButton}
-                icon={<HamburgerIcon/>}
-                variant='outline'
-                aria-label='options'
+                icon={<HamburgerIcon />}
+                variant="outline"
+                aria-label="options"
               />
               <MenuList>
-                <NextLink href='/' passHref>
+                <NextLink href="/" passHref>
                   <MenuItem as={Link}>主页</MenuItem>
                 </NextLink>
-                <NextLink href='/cats' passHref>
-                  <MenuItem as={Link}>查猫</MenuItem>
+                <NextLink href="/archives" passHref>
+                  <MenuItem as={Link}>档案</MenuItem>
                 </NextLink>
-                <NextLink href='/where' passHref>
+                <NextLink href="/where" passHref>
                   <MenuItem as={Link}>找猫</MenuItem>
                 </NextLink>
               </MenuList>

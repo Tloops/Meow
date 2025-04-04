@@ -1,12 +1,13 @@
-import React, { ReactNode } from 'react'
-import MotionDiv from "./motion-div"
+import type { ReactNode } from 'react'
+import React from 'react'
+import MotionDiv from './motion-div'
 
 interface Props {
-  children: ReactNode,
+  children: ReactNode
   delay?: number
 }
 
-const Section = ({ children, delay }: Props) => {
+function Section({ children, delay }: Props) {
   return (
     <MotionDiv
       initial={{ y: 10, opacity: 0 }}

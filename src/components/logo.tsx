@@ -1,7 +1,7 @@
-import styled from "@emotion/styled"
-import Link from "next/link"
-import { Text, useColorModeValue } from "@chakra-ui/react"
-import Image from "next/image"
+import { Text, useColorModeValue } from '@chakra-ui/react'
+import styled from '@emotion/styled'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const LogoBox = styled.span`
   font-weight: bold;
@@ -18,21 +18,21 @@ const LogoBox = styled.span`
   }
 `
 
-const Logo = () => {
+function Logo() {
   const logoImg = `/images/paw${useColorModeValue('-dark', '')}.png`
 
   return (
-    <Link href='/'>
+    <Link href="/">
       <a>
         <LogoBox>
-          <Image src={logoImg} alt='logo' width={20} height={20}/>
+          <Image src={logoImg} alt="logo" width={20} height={20} />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-            fontFamily='M PLUS Rounded 1c'
-            fontWeight='bold'
+            fontFamily="M PLUS Rounded 1c"
+            fontWeight="bold"
             ml={3}
           >
-            Meow
+            Sustcat
           </Text>
         </LogoBox>
       </a>

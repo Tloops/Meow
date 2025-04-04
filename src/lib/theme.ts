@@ -1,12 +1,13 @@
-import { mode } from "@chakra-ui/theme-tools"
-import { extendTheme, StyleFunctionProps } from "@chakra-ui/react"
+import type { StyleFunctionProps } from '@chakra-ui/react'
+import { extendTheme } from '@chakra-ui/react'
+import { mode } from '@chakra-ui/theme-tools'
 
 const styles = {
   global: (props: StyleFunctionProps) => ({
     body: {
-      bg: mode('#f0e7db', '#202023')(props)
-    }
-  })
+      bg: mode('#f0e7db', '#202023')(props),
+    },
+  }),
 }
 
 const components = {
@@ -19,29 +20,29 @@ const components = {
         textDecorationColor: '#525252',
         textDecorationThickness: 4,
         marginTop: 3,
-        marginBottom: 4
-      }
-    }
+        marginBottom: 4,
+      },
+    },
   },
   Link: {
     baseStyle: (props: StyleFunctionProps) => ({
       color: mode('#3d7aed', '#ff63c3')(props),
-      textUnderlineOffset: 3
-    })
-  }
+      textUnderlineOffset: 3,
+    }),
+  },
 }
 
 const fonts = {
-  heading: "'M PLUS Rounded 1c'"
+  heading: '\'M PLUS Rounded 1c\'',
 }
 
 const colors = {
-  glassTeal: '#88ccca'
+  glassTeal: '#88ccca',
 }
 
 const config = {
   initialColorMode: 'light',
-  useSystemColorMode: true
+  useSystemColorMode: true,
 }
 
 const theme = extendTheme({
@@ -49,7 +50,7 @@ const theme = extendTheme({
   styles,
   components,
   colors,
-  fonts
+  fonts,
 })
 
 export default theme

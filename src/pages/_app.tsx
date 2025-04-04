@@ -1,16 +1,16 @@
 import type { AppProps } from 'next/app'
-import { ChakraProvider } from "@chakra-ui/react"
+import { ChakraProvider } from '@chakra-ui/react'
+import { Analytics } from '@vercel/analytics/react'
+import { AnimatePresence } from 'framer-motion'
 import Layout from '../components/layouts/main'
-import theme from "../lib/theme"
-import { AnimatePresence } from "framer-motion"
-import { Analytics } from "@vercel/analytics/react"
+import theme from '../lib/theme'
 
-const App = ({ Component, pageProps, router }: AppProps) => {
+function App({ Component, pageProps, router }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
       <Layout router={router}>
         <AnimatePresence
-          mode='wait'
+          mode="wait"
           initial
           onExitComplete={() => {
             if (typeof window !== 'undefined') {
@@ -18,8 +18,8 @@ const App = ({ Component, pageProps, router }: AppProps) => {
             }
           }}
         >
-          <Component {...pageProps} key={router.route}/>
-          <Analytics/>
+          <Component {...pageProps} key={router.route} />
+          <Analytics />
         </AnimatePresence>
       </Layout>
     </ChakraProvider>

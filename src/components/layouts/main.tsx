@@ -1,24 +1,26 @@
+import Footer from '@/components/footer'
+import { Box, Container } from '@chakra-ui/react'
+import Head from 'next/head'
 import React from 'react'
-import { Box, Container } from "@chakra-ui/react"
-import Head from "next/head"
+import CatImage from '../cat-image'
 import Navbar from '../navbar'
-import Footer from "@/components/footer"
 
-const Main = ({ children, router }: any) => {
+function Main({ children, router }: any) {
   return (
-    <Box as='main' pb={8}>
+    <Box as="main" pb={8}>
       <Head>
-        <meta name='viewport' content='width=device-width, initial-scale=1'/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Meow</title>
       </Head>
 
-      <Navbar path={router.asPath}/>
+      <Navbar path={router.asPath} />
 
-      <Container maxW='container.md' pt={20}>
+      <Container maxW="container.md" pt={20}>
+        <CatImage src="/images/oiiaio.gif" alt="Oiiaio" />
         {children}
       </Container>
 
-      <Footer/>
+      <Footer />
     </Box>
   )
 }
