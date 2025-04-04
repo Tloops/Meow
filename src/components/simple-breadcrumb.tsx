@@ -11,7 +11,7 @@ interface Props {
 function SimpleBreadcrumb({ children }: Props) {
   return (
     <Box>
-      <NextLink href="/cats">
+      <NextLink href="/archives">
         <Link>猫猫们</Link>
       </NextLink>
       <span>
