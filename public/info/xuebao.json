@@ -1,0 +1,87 @@
+{
+  "id": "xuebao",
+  "name": "雪宝",
+  "gender": "公公",
+  "characteristic": "简州猫，尾巴比较粗，碧绿色的眼睛很好看",
+  "personality": "胆子稍微有一点小，比较亲人，不会躲雨",
+  "state": "已绝育",
+  "sections": [
+    {
+      "heading": "刷新地点",
+      "contents": [
+        {
+          "type": "paragraph",
+          "value": "湖畔二、三栋以及后面的山上"
+        }
+      ]
+    },
+    {
+      "heading": "起源",
+      "contents": [
+        {
+          "type": "paragraph",
+          "value": "雪宝第一次在2024年初一教（原）麻酱窝在的那条走廊里出现。当时被人装在一个猫袋子里，大概是被人遗弃的。当时雪宝特别胆小，在那个袋子里面呆了一下午，同学们戳他逗他他也不出来。晚上还因为应激拉稀了（）。"
+        },
+        {
+          "type": "image",
+          "value": {
+            "src": "/images/cats/xuebao/2.jpg",
+            "alt": "雪宝",
+            "caption": "雪宝在一教"
+          }
+        },
+        {
+          "type": "paragraph",
+          "value": "那天之后过了几天雪宝就突然不见了。又过了几个月才又出现在湖畔，但是状态不是很好。之后在校内同学的帮助下给他在湖畔三栋的一个厕所里暂住了一段时间，状态也渐渐好起来了。之后雪宝就定居在湖畔了。"
+        }
+      ]
+    },
+    {
+      "heading": "云吸猫",
+      "contents": [
+        {
+          "type": "image",
+          "value": {
+            "src": "/images/cats/xuebao/1.jpg",
+            "alt": "雪宝"
+          }
+        },
+        {
+          "type": "image",
+          "value": {
+            "src": "/images/cats/xuebao/3.jpg",
+            "alt": "雪宝"
+          }
+        },
+        {
+          "type": "image",
+          "value": {
+            "src": "/images/cats/xuebao/4.jpg",
+            "alt": "雪宝"
+          }
+        },
+        {
+          "type": "image",
+          "value": {
+            "src": "/images/cats/xuebao/5.jpg",
+            "alt": "雪宝"
+          }
+        },
+        {
+          "type": "image",
+          "value": {
+            "src": "/images/cats/xuebao/6.jpg",
+            "alt": "雪宝"
+          }
+        },
+        {
+          "type": "image",
+          "value": {
+            "src": "/images/cats/xuebao/7.jpg",
+            "alt": "雪宝"
+          }
+        }
+      ]
+    }
+  ]
+}

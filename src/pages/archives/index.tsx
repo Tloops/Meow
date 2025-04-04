@@ -10,6 +10,7 @@ import thumbHanhan from '../../../public/images/cats/hanhan.jpg'
 import thumbHuajuanAndFagao from '../../../public/images/cats/huajuan-and-fagao.jpg'
 import thumbMakou from '../../../public/images/cats/makou.jpg'
 import thumbWaiwai from '../../../public/images/cats/waiwai.jpg'
+import thumbXuebao from '../../../public/images/cats/xuebao.jpg'
 
 function Cats() {
   return (
@@ -37,6 +38,9 @@ function Cats() {
           </Section>
           <Section>
             <GridItem id="diudiu-and-haha" title="丢丢和哈哈" thumbnail={thumbDiudiuAndHaha} />
+          </Section>
+          <Section>
+            <GridItem id="xuebao" title="雪宝" thumbnail={thumbXuebao} />
           </Section>
         </SimpleGrid>
       </Container>
