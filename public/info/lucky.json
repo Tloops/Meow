@@ -1,0 +1,66 @@
+{
+  "id": "lucky",
+  "name": "Lucky",
+  "gender": "小母猫",
+  "characteristic": "橘白，叫声小夹子，胖",
+  "personality": "喜欢在路边乞讨，对不熟的人比较怕，多喂她几次熟了喜欢在脚边蹭，喜欢打滚儿，喜欢虚空踩奶，比较活泼，站着的时候喜欢把右爪抬着",
+  "state": "在校，已绝育",
+  "sections": [
+    {
+      "heading": "刷新地点",
+      "contents": [
+        {
+          "type": "paragraph",
+          "value": "工学院南楼花园附近，几乎只在晚上出没"
+        }
+      ]
+    },
+    {
+      "heading": "起源",
+      "contents": [
+        {
+          "type": "paragraph",
+          "value": "大概是2024年暑假出现在校内工学院南楼，当时还带了两个小崽子。后来两只崽子都送养了，Lucky绝育完之后就在南楼花园那里定居下来了。"
+        },
+        {
+          "type": "image",
+          "src": "/images/cats/lucky/6.jpg",
+          "alt": "Lucky",
+          "caption": "刚绝育完的Lucky"
+        }
+      ]
+    },
+    {
+      "heading": "云吸猫",
+      "contents": [
+        {
+          "type": "image",
+          "src": "/images/cats/lucky/2.png",
+          "alt": "Lucky"
+        },
+        {
+          "type": "image",
+          "src": "/images/cats/lucky/1.JPG",
+          "alt": "Lucky",
+          "caption": "美美的Lucky😍"
+        },
+        {
+          "type": "image",
+          "src": "/images/cats/lucky/4.jpg",
+          "alt": "Lucky",
+          "caption": "绝育完后不用带娃的Lucky发福严重"
+        },
+        {
+          "type": "image",
+          "src": "/images/cats/lucky/3.jpg",
+          "alt": "Lucky"
+        },
+        {
+          "type": "video",
+          "src": "/videos/lucky/0.mp4",
+          "alt": "Lucky"
+        }
+      ]
+    }
+  ]
+}

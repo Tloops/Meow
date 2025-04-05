@@ -86,7 +86,7 @@ export default function CatArchive() {
         </Section>
         {info?.sections.map((section, sectionIndex) => {
           return (
-            <Section delay={0.1 * (sectionIndex + 2)} key={sectionIndex}>
+            <Section key={sectionIndex} delay={0.1 * (sectionIndex + 2)}>
               <SectionHeading>{section.heading}</SectionHeading>
               {section.contents.map((content: any, contentIndex) => {
                 if (content.type === 'paragraph') {

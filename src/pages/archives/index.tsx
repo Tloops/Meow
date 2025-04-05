@@ -8,6 +8,7 @@ import thumbBaobao from '../../../public/images/cats/baobao.jpg'
 import thumbDiudiuAndHaha from '../../../public/images/cats/diudiu-and-haha.jpg'
 import thumbHanhan from '../../../public/images/cats/hanhan.jpg'
 import thumbHuajuanAndFagao from '../../../public/images/cats/huajuan-and-fagao.jpg'
+import thumbLucky from '../../../public/images/cats/lucky.jpg'
 import thumbMakou from '../../../public/images/cats/makou.jpg'
 import thumbWaiwai from '../../../public/images/cats/waiwai.jpg'
 import thumbXuebao from '../../../public/images/cats/xuebao.jpg'
@@ -41,6 +42,9 @@ function Cats() {
           </Section>
           <Section>
             <GridItem id="xuebao" title="雪宝" thumbnail={thumbXuebao} />
+          </Section>
+          <Section>
+            <GridItem id="lucky" title="Lucky" thumbnail={thumbLucky} />
           </Section>
         </SimpleGrid>
       </Container>

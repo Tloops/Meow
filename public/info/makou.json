@@ -24,11 +24,9 @@
         },
         {
           "type": "image",
-          "value": {
-            "src": "/images/cats/makou/makou-0.jpg",
-            "alt": "麻酱带娃",
-            "caption": "麻酱的九只崽"
-          }
+          "src": "/images/cats/makou/makou-0.jpg",
+          "alt": "麻酱带娃",
+          "caption": "麻酱的九只崽"
         },
         {
           "type": "video",
