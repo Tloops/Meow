@@ -40,6 +40,12 @@
         },
         {
           "type": "image",
+          "src": "/images/cats/lucky/7.png",
+          "alt": "Lucky",
+          "caption": "Lucky的神颜😍"
+        },
+        {
+          "type": "image",
           "src": "/images/cats/lucky/1.JPG",
           "alt": "Lucky",
           "caption": "美美的Lucky😍"
