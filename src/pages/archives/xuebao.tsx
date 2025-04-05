@@ -100,7 +100,7 @@ function Xuebao() {
                         my={4}
                       >
                         <HStack>
-                          {content.value.images.map(image => (
+                          {content.value.images.map((image: { src: string }) => (
                             <CatImage key={image.src} style={{ width: '50%' }} src={image.src} alt={image.src} />
                           ))}
                         </HStack>
@@ -113,7 +113,7 @@ function Xuebao() {
                   else {
                     return (
                       <HStack>
-                        {content.value.images.map(image => (
+                        {content.value.images.map((image: { src: string, caption: string }) => (
                           <CatImage key={image.src} style={{ width: '50%' }} src={image.src} alt={image.src} caption={image.caption} />
                         ))}
                       </HStack>
