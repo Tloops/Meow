@@ -1,0 +1,85 @@
+{
+  "id": "luojin",
+  "name": "罗晋",
+  "gender": "公公",
+  "characteristic": "简州猫，脸上带着棕色的面具，琥珀色眼睛，背上还有一个爱心图案",
+  "personality": "人口称赞的有猫德的豪猫，不挑食的大爷，武力超高的校霸",
+  "state": "已绝育，在校",
+  "sections": [
+    {
+      "heading": "刷新地点",
+      "contents": [
+        {
+          "type": "paragraph",
+          "value": "二期十一栋到十七栋，主要在十七栋一楼的活动区域"
+        }
+      ]
+    },
+    {
+      "heading": "起源",
+      "contents": [
+        {
+          "type": "paragraph",
+          "value": "罗晋最早在深大那边，后来才来的南科大。据深大的同学说，罗晋之前和深大那边一只叫“糖糖”的猫关系很好，同学们联想到唐嫣和罗晋就给他起了“罗晋”这个名字"
+        },
+        {
+          "type": "image",
+          "src": "/images/cats/luojin/4.jpg",
+          "alt": "罗晋"
+        },
+        {
+          "type": "paragraph",
+          "value": "罗晋虽然比较亲人也很少发卡，但是武力值很高（十七栋没有猫能打的过他），是十七栋的“猫霸”。此外因为罗晋平时的样貌说不上仪表堂堂吧，但也至少是宝相庄严，平时一副慵懒的样子，所以大家习惯叫他\"罗大爷\""
+        },
+        {
+          "type": "image-stack",
+          "images": [
+            {
+              "src": "/images/cats/luojin/5.jpg",
+              "alt": "罗晋"
+            },
+            {
+              "src": "/images/cats/luojin/6.jpg",
+              "alt": "罗晋"
+            }
+          ],
+          "caption": "罗晋平时的样子像公园老大爷逛街"
+        },
+        {
+          "type": "paragraph",
+          "value": "罗晋原本一直是17栋的老大，但是25年寒假之后，17栋的许多猫都突然消失不见了。罗晋就成了17栋的“空巢老人”"
+        }
+      ]
+    },
+    {
+      "heading": "云吸猫",
+      "contents": [
+        {
+          "type": "image",
+          "src": "/images/cats/luojin/0.jpg",
+          "alt": "罗晋"
+        },
+        {
+          "type": "image",
+          "src": "/images/cats/luojin/7.jpg",
+          "alt": "罗晋"
+        },
+        {
+          "type": "image",
+          "src": "/images/cats/luojin/1.jpg",
+          "alt": "罗晋"
+        },
+        {
+          "type": "image",
+          "src": "/images/cats/luojin/2.jpg",
+          "alt": "罗晋"
+        },
+        {
+          "type": "image",
+          "src": "/images/cats/luojin/3.jpg",
+          "alt": "罗晋"
+        }
+      ]
+    }
+  ]
+}
