@@ -1,4 +1,3 @@
-import { error } from 'node:console'
 import CatImage from '@/components/cat-image'
 import Layout from '@/components/layouts/article'
 import Meta from '@/components/meta'
@@ -9,7 +8,6 @@ import SimpleBreadcrumb from '@/components/simple-breadcrumb'
 import { Box, Container, HStack, List, ListItem, Text } from '@chakra-ui/react'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
-import NotFound from '../404'
 
 interface ContentProps {
   type: 'paragraph' | 'image' | 'image-stack'
@@ -85,41 +83,42 @@ export default function CatArchive() {
             </ListItem>
           </List>
         </Section>
-        {info?.sections.map((section, index) => {
+        {info?.sections.map((section, sectionIndex) => {
           return (
-            <Section delay={0.1 * (index + 2)} key={index}>
+            <Section delay={0.1 * (sectionIndex + 2)} key={sectionIndex}>
               <SectionHeading>{section.heading}</SectionHeading>
-              {section.contents.map((content, index) => {
+              {section.contents.map((content: any, contentIndex) => {
                 if (content.type === 'paragraph') {
-                  return <Paragraph key={index}>{content.value}</Paragraph>
+                  return <Paragraph key={`${sectionIndex}-${contentIndex}`}>{content.value}</Paragraph>
                 }
                 else if (content.type === 'image') {
-                  return <CatImage key={content.value.src} src={content.value.src} alt={content.value.alt} caption={content.value.caption} />
+                  return <CatImage key={`${sectionIndex}-${contentIndex}`} src={content.value.src} alt={content.value.alt} caption={content.value.caption} />
                 }
                 else if (content.type === 'image-stack') {
-                  if (content.value.caption) {
+                  if (Object.keys(content).includes('caption')) {
                     return (
                       <Box
-                        // @ts-ignore
+                        key={`${sectionIndex}-${contentIndex}`}
+                        // @ts-expect-error
                         align="center"
                         my={4}
                       >
                         <HStack>
-                          {content.value.images.map((image: { src: string }) => (
-                            <CatImage key={image.src} style={{ width: '50%' }} src={image.src} alt={image.src} />
+                          {content.images.map((image: { src: string }, imageIndex: number) => (
+                            <CatImage key={`${sectionIndex}-${contentIndex}-${imageIndex}`} style={{ width: '50%' }} src={image.src} alt={image.src} />
                           ))}
                         </HStack>
                         <Text textAlign="center" as="sub">
-                          {content.value.caption}
+                          {content.caption}
                         </Text>
                       </Box>
                     )
                   }
                   else {
                     return (
-                      <HStack>
-                        {content.value.images.map((image: { src: string, caption: string }) => (
-                          <CatImage key={image.src} style={{ width: '50%' }} src={image.src} alt={image.src} caption={image.caption} />
+                      <HStack key={`${sectionIndex}-${contentIndex}`}>
+                        {content.images.map((image: { src: string, caption: string }, imageIndex: number) => (
+                          <CatImage key={`${sectionIndex}-${contentIndex}-${imageIndex}`} style={{ width: '50%' }} src={image.src} alt={image.src} caption={image.caption} />
                         ))}
                       </HStack>
                     )
