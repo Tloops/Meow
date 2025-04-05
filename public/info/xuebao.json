@@ -24,11 +24,9 @@
         },
         {
           "type": "image",
-          "value": {
-            "src": "/images/cats/xuebao/1.jpg",
-            "alt": "雪宝",
-            "caption": "雪宝在一教"
-          }
+          "src": "/images/cats/xuebao/1.jpg",
+          "alt": "雪宝",
+          "caption": "雪宝在一教"
         },
         {
           "type": "paragraph",
@@ -41,45 +39,33 @@
       "contents": [
         {
           "type": "image",
-          "value": {
-            "src": "/images/cats/xuebao/2.jpg",
-            "alt": "雪宝"
-          }
+          "src": "/images/cats/xuebao/2.jpg",
+          "alt": "雪宝"
         },
         {
           "type": "image",
-          "value": {
-            "src": "/images/cats/xuebao/3.jpg",
-            "alt": "雪宝"
-          }
+          "src": "/images/cats/xuebao/3.jpg",
+          "alt": "雪宝"
         },
         {
           "type": "image",
-          "value": {
-            "src": "/images/cats/xuebao/4.jpg",
-            "alt": "雪宝"
-          }
+          "src": "/images/cats/xuebao/4.jpg",
+          "alt": "雪宝"
         },
         {
           "type": "image",
-          "value": {
-            "src": "/images/cats/xuebao/5.jpg",
-            "alt": "雪宝"
-          }
+          "src": "/images/cats/xuebao/5.jpg",
+          "alt": "雪宝"
         },
         {
           "type": "image",
-          "value": {
-            "src": "/images/cats/xuebao/6.jpg",
-            "alt": "雪宝"
-          }
+          "src": "/images/cats/xuebao/6.jpg",
+          "alt": "雪宝"
         },
         {
           "type": "image",
-          "value": {
-            "src": "/images/cats/xuebao/7.jpg",
-            "alt": "雪宝"
-          }
+          "src": "/images/cats/xuebao/7.jpg",
+          "alt": "雪宝"
         }
       ]
     }

@@ -92,7 +92,7 @@ export default function CatArchive() {
                   return <Paragraph key={`${sectionIndex}-${contentIndex}`}>{content.value}</Paragraph>
                 }
                 else if (content.type === 'image') {
-                  return <CatImage key={`${sectionIndex}-${contentIndex}`} src={content.value.src} alt={content.value.alt} caption={content.value.caption} />
+                  return <CatImage key={`${sectionIndex}-${contentIndex}`} src={content.src} alt={content.alt} caption={content.caption} />
                 }
                 else if (content.type === 'image-stack') {
                   if (Object.keys(content).includes('caption')) {
