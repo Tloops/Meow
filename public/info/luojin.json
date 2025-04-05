@@ -35,7 +35,7 @@
           "type": "image-stack",
           "images": [
             {
-              "src": "/images/cats/luojin/5.jpg",
+              "src": "/images/cats/luojin/5.JPG",
               "alt": "罗晋"
             },
             {
@@ -61,22 +61,22 @@
         },
         {
           "type": "image",
-          "src": "/images/cats/luojin/7.jpg",
+          "src": "/images/cats/luojin/7.JPG",
           "alt": "罗晋"
         },
         {
           "type": "image",
-          "src": "/images/cats/luojin/1.jpg",
+          "src": "/images/cats/luojin/1.JPG",
           "alt": "罗晋"
         },
         {
           "type": "image",
-          "src": "/images/cats/luojin/2.jpg",
+          "src": "/images/cats/luojin/2.JPG",
           "alt": "罗晋"
         },
         {
           "type": "image",
-          "src": "/images/cats/luojin/3.jpg",
+          "src": "/images/cats/luojin/3.JPG",
           "alt": "罗晋"
         }
       ]
