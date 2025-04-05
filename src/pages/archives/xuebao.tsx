@@ -120,6 +120,11 @@ function Xuebao() {
                     )
                   }
                 }
+                else {
+                  return (
+                    <>Error</>
+                  )
+                }
               })}
             </Section>
           )
