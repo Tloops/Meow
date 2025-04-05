@@ -1,0 +1,102 @@
+{
+  "id": "makou",
+  "name": "麻酱",
+  "gender": "小母猫",
+  "characteristic": "棕色的（疑似）雀猫，有黑色的细小斑点，胖",
+  "personality": "高冷御姐；对人爱答不理；对猫条爱不释爪",
+  "state": "已绝育",
+  "sections": [
+    {
+      "heading": "刷新地点",
+      "contents": [
+        {
+          "type": "paragraph",
+          "value": "二科学者咖啡，一教附近"
+        }
+      ]
+    },
+    {
+      "heading": "起源",
+      "contents": [
+        {
+          "type": "paragraph",
+          "value": "麻酱最初于2019年在学校中出现。发现她的时候已经怀有身孕。之后产下整整九只猫崽，并且在猫舍同学的帮助下，这九只崽子全部存活并被送养。"
+        },
+        {
+          "type": "image",
+          "value": {
+            "src": "/images/cats/makou/makou-0.jpg",
+            "alt": "麻酱带娃",
+            "caption": "麻酱的九只崽"
+          }
+        },
+        {
+          "type": "video",
+          "src": "/videos/makou/0.mp4"
+        },
+        {
+          "type": "paragraph",
+          "value": "带完崽绝育后，麻酱就开启了“我吃吃吃”的状态。几个月内吃成了肥猪（"
+        },
+        {
+          "type": "image-stack",
+          "images": [
+            {
+              "src": "/images/cats/makou/makou-1.jpg",
+              "alt": "痩麻酱",
+              "caption": "胖之前"
+            },
+            {
+              "src": "/images/cats/makou/makou-2.jpg",
+              "alt": "飞竹",
+              "caption": "飞竹"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "value": "还诞生了下面的名场面"
+        },
+        {
+          "type": "video",
+          "src": "/videos/makou/1.mp4"
+        }
+      ]
+    },
+    {
+      "heading": "云吸猫",
+      "contents": [
+        {
+          "type": "image",
+          "src": "/images/cats/makou/makou-3.jpg",
+          "alt": "麻酱"
+        },
+        {
+          "type": "image",
+          "src": "/images/cats/makou/makou-4.jpg",
+          "alt": "麻酱"
+        },
+        {
+          "type": "image",
+          "src": "/images/cats/makou/makou-5.jpg",
+          "alt": "麻酱"
+        },
+        {
+          "type": "image",
+          "src": "/images/cats/makou/makou-6.jpeg",
+          "alt": "麻酱"
+        },
+        {
+          "type": "image",
+          "src": "/images/cats/makou/makou-7.jpg",
+          "alt": "麻酱"
+        },
+        {
+          "type": "image",
+          "src": "/images/cats/makou/makou-8.jpg",
+          "alt": "麻酱"
+        }
+      ]
+    }
+  ]
+}

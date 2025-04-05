@@ -1,4 +1,5 @@
 import CatImage from '@/components/cat-image'
+import CatVideo from '@/components/cat-video'
 import Layout from '@/components/layouts/article'
 import Meta from '@/components/meta'
 import Paragraph from '@/components/paragraph'
@@ -93,6 +94,9 @@ export default function CatArchive() {
                 }
                 else if (content.type === 'image') {
                   return <CatImage key={`${sectionIndex}-${contentIndex}`} src={content.src} alt={content.alt} caption={content.caption} />
+                }
+                else if (content.type === 'video') {
+                  return <CatVideo src={content.src} />
                 }
                 else if (content.type === 'image-stack') {
                   if (Object.keys(content).includes('caption')) {
