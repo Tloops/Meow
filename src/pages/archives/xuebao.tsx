@@ -9,7 +9,7 @@ import { Box, Container, HStack, List, ListItem, Text } from '@chakra-ui/react'
 import React, { useEffect, useState } from 'react'
 
 interface ContentProps {
-  type: 'paragraph' | 'image'
+  type: 'paragraph' | 'image' | 'image-stack'
   value: any
 }
 
@@ -36,6 +36,7 @@ function Xuebao() {
     fetch('/info/xuebao.json')
       .then(response => response.json())
       .then((data) => {
+        console.log(data)
         setInfo(data)
         setLoading(false)
       })
@@ -88,7 +89,36 @@ function Xuebao() {
                   return <Paragraph key={index}>{content.value}</Paragraph>
                 }
                 else if (content.type === 'image') {
-                  return <CatImage key={index} src={content.value.src} alt={content.value.alt} caption={content.value.caption} />
+                  return <CatImage key={content.value.src} src={content.value.src} alt={content.value.alt} caption={content.value.caption} />
+                }
+                else if (content.type === 'image-stack') {
+                  if (content.value.caption) {
+                    return (
+                      <Box
+                        // @ts-ignore
+                        align="center"
+                        my={4}
+                      >
+                        <HStack>
+                          {content.value.images.map(image => (
+                            <CatImage key={image.src} style={{ width: '50%' }} src={image.src} alt={image.src} />
+                          ))}
+                        </HStack>
+                        <Text textAlign="center" as="sub">
+                          {content.value.caption}
+                        </Text>
+                      </Box>
+                    )
+                  }
+                  else {
+                    return (
+                      <HStack>
+                        {content.value.images.map(image => (
+                          <CatImage key={image.src} style={{ width: '50%' }} src={image.src} alt={image.src} caption={image.caption} />
+                        ))}
+                      </HStack>
+                    )
+                  }
                 }
               })}
             </Section>
