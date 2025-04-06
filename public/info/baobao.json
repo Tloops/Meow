@@ -1,0 +1,63 @@
+{
+  "id": "baobao",
+  "name": "包包",
+  "gender": "母",
+  "characteristic": "三花猫、哈根达斯三色雪糕、额头上有一处棕色斑点（天眼）。自带眼线",
+  "personality": "温顺（可以抱），不易抓人",
+  "state": "已被领养",
+  "sections": [
+    {
+      "heading": "刷新地点",
+      "contents": [
+        {
+          "type": "paragraph",
+          "value": "二期17栋，及二期宿舍区其余部分"
+        }
+      ]
+    },
+    {
+      "heading": "起源",
+      "contents": [
+        {
+          "type": "paragraph",
+          "value": "最早发现于深大，当天便被带去绝育。放归后失踪了一段时间，然后出现并定居于南科大。由于其可撸可抱且轻易不伸爪子而广受好评。与歪歪关系不好。"
+        },
+        {
+          "type": "paragraph",
+          "value": "包包来了之后就成了17栋的老大，其他猫都不敢惹包包。很多17栋的猫猫在包包的统治下都安安稳稳的生活不敢生事。后来包包被领养后，老大的位置交给了绾绾"
+        },
+        {
+          "type": "image",
+          "src": "/images/cats/baobao/4.jpg",
+          "alt": "包包",
+          "caption": "王权交接仪式"
+        }
+      ]
+    },
+    {
+      "heading": "云吸猫",
+      "contents": [
+        {
+          "type": "image",
+          "src": "/images/cats/baobao/baobao-0.jpg",
+          "alt": "包包"
+        },
+        {
+          "type": "image",
+          "src": "/images/cats/baobao/baobao-1.jpg",
+          "alt": "包包"
+        },
+        {
+          "type": "image",
+          "src": "/images/cats/baobao/baobao-2.jpg",
+          "alt": "包包"
+        },
+        {
+          "type": "image",
+          "src": "/images/cats/baobao/baobao-3.jpg",
+          "alt": "包包"
+        }
+      ]
+    }
+  ]
+}
