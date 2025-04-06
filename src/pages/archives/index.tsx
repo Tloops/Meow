@@ -27,6 +27,15 @@ function Cats() {
             <GridItem id="makou" title="麻酱" thumbnail={thumbMakou} />
           </Section>
           <Section>
+            <GridItem id="xuebao" title="雪宝" thumbnail={thumbXuebao} />
+          </Section>
+          <Section>
+            <GridItem id="luojin" title="罗晋" thumbnail={thumbLuojin} />
+          </Section>
+          <Section>
+            <GridItem id="lucky" title="Lucky" thumbnail={thumbLucky} />
+          </Section>
+          <Section>
             <GridItem id="waiwai" title="歪歪" thumbnail={thumbWaiwai} />
           </Section>
           <Section>
@@ -40,15 +49,6 @@ function Cats() {
           </Section>
           <Section>
             <GridItem id="diudiu-and-haha" title="丢丢和哈哈" thumbnail={thumbDiudiuAndHaha} />
-          </Section>
-          <Section>
-            <GridItem id="xuebao" title="雪宝" thumbnail={thumbXuebao} />
-          </Section>
-          <Section>
-            <GridItem id="lucky" title="Lucky" thumbnail={thumbLucky} />
-          </Section>
-          <Section>
-            <GridItem id="luojin" title="罗晋" thumbnail={thumbLuojin} />
           </Section>
         </SimpleGrid>
       </Container>
