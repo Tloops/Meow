@@ -66,6 +66,12 @@
           "type": "image",
           "src": "/images/cats/xuebao/7.jpg",
           "alt": "雪宝"
+        },
+        {
+          "type": "image",
+          "src": "/images/cats/xuebao/8.jpg",
+          "alt": "雪宝",
+          "caption": "阿玛特拉斯"
         }
       ]
     }
