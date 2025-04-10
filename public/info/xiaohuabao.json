@@ -1,0 +1,153 @@
+{
+    "id": "xiaohuabao",
+    "name": "小花包",
+    "gender": "小母猫",
+    "characteristic": "三花猫，体型比其他猫小很多，眼睛很圆很大，颜值很高",
+    "personality": "调皮，多动，比较欠揍，街溜子",
+    "state": "已绝育，在校",
+    "sections": [
+      {
+        "heading": "刷新地点",
+        "contents": [
+          {
+            "type": "paragraph",
+            "value": "湖畔三到六栋，二期十三栋附近"
+          }
+        ]
+      },
+      {
+        "heading": "起源",
+        "contents": [
+          {
+            "type": "paragraph",
+            "value": "小花包最初在2023年10月份左右在琳恩图书馆附近和一群小奶猫一起在一个纸箱里被发现，后来除了小花包，这几只小奶猫都被路过的同学领养了。猫舍帮忙先后在两位同学那里暂养了几个月，之后就带她去了线下的猫猫领养平台找领养，并成功的送了出去。"
+          },
+          {
+            "type": "image",
+            "src": "/images/cats/xiaohuabao/6.png",
+            "alt": "小花包",
+            "caption": "小花包刚被发现的时候（中间三花是小花包）"
+          },
+          {
+            "type": "image",
+            "src": "/images/cats/xiaohuabao/0.jpg",
+            "alt": "小花包",
+            "caption": "线下送养小花包"
+          },
+          {
+            "type": "paragraph",
+            "value": "送养走刚过了一周后，领养人就反映小花包在家非常闹腾，并且还经常挠人，领养人又是第一次养，没办法就只能把小花包退了回来。退回来之后继续给她找了同学暂养，暂养了一两个月左右猫舍又把她带到线下尝试找领养，但是这次小花包没有上次那么乖，全程一直很害怕，呆了一下午也没人来询问她的情况。"
+          },
+          {
+            "type": "image-stack",
+            "images": [
+              {
+                "src": "/images/cats/xiaohuabao/1.jpg",
+                "alt": "小花包",
+                "caption": "刚被\"退\"回来的小花包"
+              },
+              {
+                "src": "/images/cats/xiaohuabao/2.jpg",
+                "alt": "小花包",
+                "caption": "第二次去线下找领养"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "value": "第二次找领养失败后，猫舍是打算继续给她找领养，就又把她交给了之前的同学暂养。这次暂养人养了很久，中间也状况不断：先是天天早上挠房门，不让暂养人睡觉；后来又发神经给暂养人感到了狂犬科。"
+          },
+          {
+            "type": "image-stack",
+            "images": [
+              {
+                "src": "/images/cats/xiaohuabao/3.png",
+                "alt": "小花包"
+              },
+              {
+                "src": "/images/cats/xiaohuabao/4.png",
+                "alt": "小花包"
+              }
+            ],
+            "caption": "小花包在暂养人家里天天捣乱"
+          },
+          {
+            "type": "image",
+            "src": "/images/cats/xiaohuabao/5.png",
+            "alt": "小花包",
+            "caption": "小登幼年期"
+          },
+          {
+            "type": "paragraph",
+            "value": "尽管小花包天天在暂养人家里闹腾，但是他们一直挺喜欢小花包的，还给他打了疫苗什么的准备领养，但是之后因为个人的一些原因没有办法暂养和领养了。小花包就这样又回到猫舍了。猫舍原来是打算继续给她找领养，由于暂时找不到暂养人就暂时先给她安顿在了原一教麻将饭盆对面的仓库里。但是后来小花包自己越狱了。之后就一直在妮可学校里面流浪了。"
+          },
+          {
+            "type": "image",
+            "src": "/images/cats/xiaohuabao/7.jpg",
+            "alt": "小花包",
+            "caption": "在一教也天天和同学斗智斗勇，对猫舍同学哈气"
+          },
+          {
+            "type": "paragraph",
+            "value": "小花包在妮可流浪了一段时间后，大家就发现她是真的皮，经常挠人，是学校里面知名的\"街溜子\"。她倒不是应激挠你，就是和你玩然后下手没轻重。"
+          },
+          {
+            "type": "image-stack",
+            "images": [
+              {
+                "src": "/images/cats/xiaohuabao/8.jpg",
+                "alt": "小花包"
+              },
+              {
+                "src": "/images/cats/xiaohuabao/9.gif",
+                "alt": "小花包"
+              }
+            ],
+            "caption": "\"街溜子\"表情包"
+          },
+          {
+            "type": "paragraph",
+            "value": "虽然又皮又喜欢挠人，但是还是很多同学喜欢她，谁叫她长的实在是太好看了（你看后面照片就知道了）。在学校待久了之后，挠人次数也逐渐变少了"
+          }
+        ]
+      },
+      {
+        "heading": "云吸猫",
+        "contents": [
+          {
+            "type": "image",
+            "src": "/images/cats/xiaohuabao/10.jpg",
+            "alt": "小花包",
+            "caption": "中间小花包还得过一段时间眼角膜溃疡，只能睁开一只眼睛"
+          },
+          {
+            "type": "image",
+            "src": "/images/cats/xiaohuabao/11.jpg",
+            "alt": "小花包"
+          },
+          {
+            "type": "image",
+            "src": "/images/cats/xiaohuabao/12.jpg",
+            "alt": "小花包"
+          },
+          {
+            "type": "image",
+            "src": "/images/cats/xiaohuabao/13.jpg",
+            "alt": "小花包"
+          },
+          {
+            "type": "image",
+            "src": "/images/cats/xiaohuabao/14.jpg",
+            "alt": "小花包",
+            "caption": "求这张图里小花包嘴的斜率"
+          },
+          {
+            "type": "image",
+            "src": "/images/cats/xiaohuabao/15.jpg",
+            "alt": "小花包"
+          }
+        ]
+      }
+    ]
+  }
+  

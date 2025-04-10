@@ -13,6 +13,7 @@ import thumbLuojin from '../../../public/images/cats/luojin.jpg'
 import thumbMakou from '../../../public/images/cats/makou.jpg'
 import thumbWaiwai from '../../../public/images/cats/waiwai.jpg'
 import thumbXuebao from '../../../public/images/cats/xuebao.jpg'
+import thumbXiaohuabao from '../../../public/images/cats/xiaohuabao.jpg'
 
 function Cats() {
   return (
@@ -34,6 +35,9 @@ function Cats() {
           </Section>
           <Section>
             <GridItem id="lucky" title="Lucky" thumbnail={thumbLucky} />
+          </Section>
+          <Section>
+            <GridItem id="xiaohuabao" title="小花包" thumbnail={thumbXiaohuabao} />
           </Section>
           <Section>
             <GridItem id="waiwai" title="歪歪" thumbnail={thumbWaiwai} />
